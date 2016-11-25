@@ -1,0 +1,123 @@
+/*services page styles
+-------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700');
+h2 {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 300;
+	font-size: 60px;
+	letter-spacing: 20px;
+	align-self: flex-start;
+	margin-left: 12.5%;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 75vw;
+	max-width: 1350px;
+	height: 75vh;
+	max-height: 500px;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 35px;
+	font-weight: 300;
+}
+.radio , .jingles , .more {
+	display: flex;
+	justify-content: space-around;
+	margin-left: 30px;
+}
+.description {
+	margin-left: 15px;
+	display: flex;
+	flex-direction: column;
+}
+.description h5 {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 300;
+	margin-left: 10px;
+	font-size: 40px;
+	letter-spacing: 20px;
+}
+section img {
+	height: 120px;
+	width: 120px;
+}
+
+section p {
+	padding: 10px;
+	font-size: 20px;
+}
+@media (max-width: 1000px) {
+	header {
+		height: 100px;
+	}
+	body {
+		height: 100%;
+	}
+	main {
+		height: 100%;
+	}
+	section {
+		font-size: 25px;
+		height: 800px ;
+		max-height: 800px;
+	}
+	section img {
+
+	}
+	section h5 {
+		font-size: 20px;
+	}
+	section p {
+		font-size: 15px;
+	}
+}
+@media (max-width: 680px) {
+	header {
+		height: 80px;
+	}
+}
+@media (max-width: 600px) {
+	header {
+		height: 140px;
+	}
+	h2 {
+		margin-top: 60px;
+		font-size: 25px;
+	}
+	section p {
+		font-size: 15px;
+	}
+	body {
+		height: 100%;
+		max-height: 2000px;
+	}
+	main {
+		height: 100%;
+		max-height: 2000px;
+	}
+	section {
+		height: 100%;
+		max-height: 100%;
+	}
+	.radio , .jingles , .more {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-left: 0;
+	}
+	.radio , .jingles {
+		margin-bottom: 20px;
+	}
+	.description h5 {
+		font-size: 25px;
+		justify-content: center;
+		align-content: center;
+		text-align: center;
+}
+	.description img {
+		height: 50px;
+		width: 50px;
+	}
+}

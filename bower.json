@@ -1,0 +1,17 @@
+{
+  "name": "Indie creative",
+  "authors": [
+    "RobbV"
+  ],
+  "description": "company website for Indie creative.",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

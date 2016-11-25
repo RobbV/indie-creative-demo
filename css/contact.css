@@ -1,0 +1,200 @@
+/*services page styles
+-------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700');
+h2 {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 300;
+	font-size: 60px;
+	letter-spacing: 20px;
+	align-self: flex-start;
+	margin-left: 12.5%;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 75vw;
+	max-width: 1350px;
+	height: 75vh;
+	max-height: 500px;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 35px;
+	font-weight: 300;
+}
+form {
+	display: flex;
+	flex-direction: row;
+	color: #333;
+	width: 100%;
+	align-self: center;
+	justify-content: center;
+	align-items:;
+}
+.group-1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 15px;
+	margin-right: 60px;
+}
+
+.group-2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+form {
+	width: 75vw;
+	margin: 0;
+	padding: 10px;
+	height: 35vh;
+}
+input {
+	width: 400px;
+	height: 30px;
+	font-size: 15px;
+	font-weight: bolder;
+}
+textarea {
+	font-size: 15px;
+	width: 400px;
+	font-weight: bolder;
+}
+input, textarea, button {
+	border-radius: 3px;
+	border: none;
+}
+button {
+	background-color: #AF2700 ;
+	color: #fff;
+	height: 30px;
+	font-size: 20px;
+	letter-spacing: 10px;
+	border: none;
+	outline: none;
+	margin-top: 40px;
+}
+button:hover {
+	background-color: #992100;
+}
+section p {
+	padding: 10px;
+	font-size: 20px;
+}
+@media (max-width: 1000px) {
+	header {
+		height: 100px;
+	}
+	body {
+		height: 100%;
+	}
+	main {
+		height: 900px;
+	}
+	section {
+		font-size: 25px;
+		height: 100%;
+		max-height: 100%;
+	}
+	form {
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.group-1 {
+		margin: 0;
+		margin-bottom: 50px;
+		height: 20vh;
+	}
+	.group-2 {
+		height: 20vh;
+	}
+	button {
+		height: 65px;
+	}
+}
+@media (max-width: 800px) {
+	header {
+		height: 80px;
+	}
+	section {
+		width: 80vw;
+	}
+	form {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		height: 100%;
+		margin-top: 40px;
+	}
+	.group-1 {
+		margin: 0;
+		margin-bottom: 40px;
+		height: 45vh;
+	}
+	.group-2 {
+		height: 50vh;
+	}
+	input {
+		width: 75vw;
+	}
+	textarea {
+		width: 75vw;
+	}
+	button {
+		height: 120px;
+	}
+}
+@media (max-width: 600px) {
+
+	header {
+		height: 140px;
+	}
+	h2 {
+		margin-top: 60px;
+		font-size: 25px;
+	}
+	section p {
+		font-size: 15px;
+	}
+	body {
+		height: 100%;
+		max-height: 2000px;
+	}
+	main {
+		height: 100%;
+		max-height: 2000px;
+	}
+	section {
+		width: 80vw;
+	}
+	form {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		height: 100%;
+		margin-top: 40px;
+	}
+	.group-1 {
+		margin: 0;
+		margin-bottom: 40px;
+		height: 45vh;
+	}
+	.group-2 {
+		height: 50vh;
+	}
+	input {
+		width: 75vw;
+	}
+	textarea {
+		width: 75vw;
+	}
+	button {
+		height: 120px;
+	}
+}
+@media (max-width: 420px) {
+	.group-1 {
+		height: 20vh;
+	}
+}
