@@ -114,6 +114,19 @@ main h4:first-of-type {
 		letter-spacing: 3vw;
 		word-spacing: 4vw;
 	}
+	header {
+		height: 100px;
+	}
+	body {
+		height: 600px;
+	}
+	main {
+		height: 700px;
+	}
+	section {
+		font-size: 25px;
+		max-height: 400px;
+	}
 }
 	@media (max-width: 810px) {
 		body {
