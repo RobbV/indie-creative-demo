@@ -25,9 +25,9 @@ section {
 section p {
 	padding: 10px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1081px) {
 	header {
-		height: 100px;
+		height: 125px;
 	}
 	body {
 		height: 600px;
@@ -42,7 +42,7 @@ section p {
 }
 @media (max-width: 680px) {
 	header {
-		height: 80px;
+		height: 90px;
 	}
 	h2 {
 		font-family: 'Alegreya Sans', sans-serif;
